@@ -1,0 +1,60 @@
+.song-catalog-container {
+    position: relative;
+    background-image: url('../../images/wepik-export-20240412151452c4cW.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+}
+
+.song-catalog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1; /* Ensure the overlay is behind the content */
+}
+
+.song-catalog-container table > thead > tr > th, .song-catalog-container table > tbody > tr > td {
+    background-color: transparent;
+    color: white;
+}
+
+.song-catalog-container table > thead > tr > th {
+    font-weight: 900;
+}
+
+.song-catalog-container table > tbody > tr > td {
+    font-weight: 500;
+}
+
+.song-catalog-container h2 {
+    margin-top: 2%;
+    color: black;
+}
+
+.song-catalog-container label {
+    color: white;
+    font-weight: 400;
+}
+
+.pagination {
+    color: #007965; /* Primary color from the theme */
+}
+
+.active > .page-link {
+    background-color: #007965;
+    border-color: #007965;
+    color: white;
+}
+
+.page-link {
+    color: #007965;
+}
+
+.pagination {
+    --bs-pagination-focus-box-shadow: none;
+    --bs-pagination-hover-color: #007965;
+    --bs-pagination-focus-color: #007965
+}

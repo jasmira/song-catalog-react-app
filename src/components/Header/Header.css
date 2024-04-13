@@ -1,0 +1,34 @@
+.full-width {
+    width: 100%;
+}
+
+.expanded {
+    width: 100vw;
+}
+
+.bg-custom {
+    background-color: #007965;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+}
+
+/* CSS to make the h1 element clickable */
+.clickable {
+    cursor: pointer;
+    color: white; /* Match the color with other links */
+    text-decoration: none; /* Remove default underline */
+}
+
+.clickable:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: white;
+}
+
+/* Style for the music icon */
+.music-icon {
+    margin-right: 5px; /* Add some space between icon and text */
+}

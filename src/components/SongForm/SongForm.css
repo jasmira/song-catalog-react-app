@@ -1,0 +1,32 @@
+.song-form-container {
+    position: relative;
+    background-image: url('../../images/wepik-export-20240412150605Fxan.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Set minimum height to cover the entire viewport */
+}
+
+.song-form-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+    z-index: 1; /* Ensure overlay is above the background image */
+}
+
+.song-form-content {
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 100%;
+    height: 600px;
+    position: relative; /* Ensure z-index works */
+    z-index: 2; /* Ensure content is above the overlay */
+}
+
+.song-form-content label {
+    color: white;
+    font-weight: bold;
+}

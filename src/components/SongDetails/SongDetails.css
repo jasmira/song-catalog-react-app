@@ -1,0 +1,71 @@
+.song-details-container {
+    position: relative;
+    background-image: url('../../images/wepik-export-20240412152125hhzC.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+}
+
+.song-details-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1; /* Ensure the overlay is behind the content */
+}
+
+.song-details-container h2 {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.song-details-container p {
+    color: whitesmoke;
+}
+
+.song-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+  
+.bigger-font {
+    font-size: 1.2rem;
+}
+  
+@media (min-width: 576px) {
+    .song-details-inner-container {
+      width: 80%; /* Adjust for small screens */
+    }
+}
+  
+@media (min-width: 768px) {
+    .song-details-inner-container {
+      width: 70%; /* Adjust for medium screens */
+    }
+}
+  
+@media (min-width: 992px) {
+    .song-details-inner-container {
+      width: 60%; /* Adjust for large screens */
+    }
+}
+  
+@media (min-width: 768px) {
+    .bigger-font {
+      font-size: 1.5rem; /* Adjust for medium-sized screens */
+    }
+}
+  
+@media (min-width: 992px) {
+    .bigger-font {
+      font-size: 1.8rem; /* Adjust for large-sized screens */
+    }
+}
+  
