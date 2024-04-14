@@ -7,6 +7,7 @@ React.js code for the front-end implementation of a songs catalog
 * Make sure all you dependencies are installed properly without any errors. You can ignore the warnings for now.
 * To Start the app, run command `npm start`.
 * It should automatically open your default browser at location `http://localhost:3000/` and you should be able to see the app's Home page.
+* To run all the unit tests, run command `npm test`. If it says no updated test found, press `a` on the keyboard and it should run all the tests present in the test suite in the app.
 
 **Note:  The app currently doesn't have any security embedded in it. It also doesn't handle any Authentication, Authorization or Encryption as the moment.** 
 
