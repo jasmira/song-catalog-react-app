@@ -6,7 +6,7 @@ import backgroundImg from '../../images/medium-shot-woman-futuristic-portrait.jp
 const Home = () => {
   return (
     <div className="home-container" style={{ backgroundImage: `url(${backgroundImg})` }} data-testid="home-container">
-      <div className="overlay"></div>
+      <div className="home-overlay"></div>
       <div className="home-content">
         <h1 className="title">Welcome to Your Music Catalog</h1>
         <p className="subtitle">Explore a world of music discovery</p>

@@ -32,3 +32,7 @@
 .music-icon {
     margin-right: 5px; /* Add some space between icon and text */
 }
+
+.header-container {
+    margin-bottom: 0; /* Remove bottom margin */
+}

@@ -29,10 +29,6 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  overflow-x: auto;
-}
-
 .bg-btn-custom {
   background-color: #007965;
   color: #fff;

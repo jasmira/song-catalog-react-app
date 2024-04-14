@@ -6,6 +6,10 @@
     min-height: 100vh; /* Ensure the container covers the entire viewport height */
 }
 
+.song-catalog-container .container {
+    overflow-y: auto;
+}
+
 .song-catalog-overlay {
     position: absolute;
     top: 0;

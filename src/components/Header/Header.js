@@ -14,7 +14,7 @@ const Header = ({ renderHeader }) => {
   return (
     renderHeader && (
       <nav className={`navbar navbar-expand-lg navbar-light bg-custom full-width ${isMenuOpen ? 'expanded' : ''}`}>
-        <div className="container">
+        <div className="container header-container">
           <NavLink to="/" className="navbar-brand clickable">
             <FontAwesomeIcon icon={faMusic} className="music-icon" />
           </NavLink>

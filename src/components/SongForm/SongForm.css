@@ -6,6 +6,10 @@
     min-height: 100vh; /* Set minimum height to cover the entire viewport */
 }
 
+.song-form-container .container {
+    overflow-x: hidden;
+}
+
 .song-form-container::before {
     content: '';
     position: absolute;
@@ -15,6 +19,18 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
     z-index: 1; /* Ensure overlay is above the background image */
+}
+
+.custom-success-banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-success-banner {
+    padding: 10px;
+    border-radius: 5px;
+    color: #007965;
+    width: 100%;
 }
 
 .song-form-content {
@@ -29,4 +45,9 @@
 .song-form-content label {
     color: white;
     font-weight: bold;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
 }

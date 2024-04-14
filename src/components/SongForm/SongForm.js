@@ -45,11 +45,16 @@ const SongForm = () => {
 
   return (
     <div className="song-form-container">
+      <div className="custom-success-banner-container">
+        <div className="custom-success-banner">
+          {showSuccessMessage && <SuccessBanner message="Song added successfully" />}
+        </div>
+      </div>
       <div className="container">
-        <div className="row justify-content-center mt-3">
+        <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="song-form-content">
-              {showSuccessMessage && <SuccessBanner message="Song added successfully" />}
+
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">Song Name</label>
